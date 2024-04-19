@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lil Caso - Official Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe,
+        .video-container object,
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lil Caso</h1>
+    </header>
+    <nav>
+        <a href="#music">Music</a>
+        <a href="#merchandise">Merchandise</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="music">
+        <h2>Music</h2>
+        <div class="video-container">
+            <!-- Replace the src attribute with your music video embed code -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="merchandise">
+        <h2>Merchandise</h2>
+        <p>Check out the latest merchandise!</p>
+        <!-- Add your merchandise items with links to buy -->
+        <p>Merchandise item 1: <a href="#">Buy now</a></p>
+        <p>Merchandise item 2: <a href="#">Buy now</a></p>
+        <p>Merchandise item 3: <a href="#">Buy now</a></p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Want to get in touch? Send me a message!</p>
+        <form action="#" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Lil Caso. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
